@@ -1,0 +1,241 @@
+@media (max-width: 768px){
+    /* header */
+    .header-container{
+        padding-top: 21px;
+    }
+    .header-logo{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .header-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-content{
+        padding: 50px 10px 50px 10px;
+    }
+    .content-row-top{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-title{
+        font-size: 32px;
+        text-align: center;
+    }
+    .header-subtitle{
+        font-size: 16px;
+        text-align: center;
+        color: #000;
+    }
+    .btn-fill{
+        margin: 0 0 20px 0;
+    }
+    .content-row-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .card-item:last-child{
+        margin-bottom: 0;
+    }
+    .card-item{
+        width: 280px;
+
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    /* // header */
+    .features-card-item{
+        padding: 30px;
+        margin: 0 30px 15px 30px;
+    }
+}
+@media (min-width: 810px) {
+    .subscribe-title{
+        max-width: 266px;
+    }
+    .subscribe-body{
+        display: flex;
+        justify-content: space-between;
+    }
+    .consulting-container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 810px) {
+    /* subscribe */
+    .subscribe-body{
+        padding: 20px 15px;
+    }
+    .subscribe-title{
+        margin: 0 0 20px 0;
+    }
+    /* // subscribe */
+    /* contacts */
+    .contacts{
+        padding: 60px 0;
+    }
+    .contacts-main{
+        padding: 0 15px;
+    }
+    .contacts-title{
+        margin-bottom: 10px;
+    }
+    .contacts-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .contacts-card{
+        margin-bottom: 30px;
+    }
+    .contacts-card:last-child{
+        margin-bottom: 0;
+    }
+    /* // contacts */
+    /* consulting */
+    .consulting-container{
+        text-align: center;
+    }
+    .consulting-main{
+        margin: 0 0 30px 0;
+    }
+    /* // consulting */
+    /* footer */
+    .footer-row, .footer-row-bottom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-column{
+        flex: 0 1 100%;
+    }
+    .footer-column:last-child{
+        flex: 0 1 100%;
+    }
+    .footer-bottom{
+        padding: 20px 15px;
+    }
+    .footer-copyright{
+        margin-bottom: 15px;
+    }
+    /* // footer */
+}
+@media (max-width: 1140px){
+    /* header */
+    .header-container{
+        padding: 30px 30px 45px 30px;
+    }
+    .header-content{
+        padding-top: 60px;
+    }
+    .content-row-top a{
+        margin: 0 auto;
+        width: 200px;
+        margin-bottom: 15px;
+    }
+    .content-row-bottom{
+        margin: 60px 21px 0 21px
+    }
+    .card-item{
+        width: 270px;
+        padding: 27px;
+    }
+    .card-item-title{
+        font-size: 21px;
+    }
+    .card-item-subtitle{
+        font-size: 15px;
+    }
+    /* // header */
+    .features{
+        padding: 0 15px 30px 15px;
+    }
+    .features-title{
+        font-size: 32px;
+    }
+    .features-subtitle{
+        font-size: 16px;
+    }
+    .features-row-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .features-card-item{
+        width: 300px;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+    /* // features */
+
+    /* advice */
+    .advice{
+        padding: 60px 15px 60px 15px;
+    }
+    .advice-row-cards{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .advice-card{
+        margin-bottom: 30px;
+    }
+    .advice-card:last-child{
+        margin-bottom: 0;
+    }
+    .advice-title{
+        font-size: 32px;
+    }
+    .advice-subtitle{
+        font-size: 16px;
+    }
+    /* // advice */
+
+    /* about */
+    .about{
+        padding: 60px 15px 45px 15px;
+    }
+    .about-title{
+        font-size: 32px;
+    }
+    .about-subtitle{
+        font-size: 16px;
+        margin-bottom: 45px;
+    }
+    .about-row-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-col{
+        margin-right: 0;
+    }
+    .about-text{
+        font-size: 32px;
+        text-align: center;
+    }
+    .about-discription{
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .about-image{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about-card{
+        margin-bottom: 21px;
+    }
+    .about-card:last-child{
+        margin-bottom: 0;
+    }
+    .about-card-subtitle{
+        margin-bottom: 0;
+    }
+    /* // about */
+
+}
